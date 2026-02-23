@@ -1,0 +1,88 @@
+
+/* ---------- PAGE STYLE ---------- */
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #1e1d1d;
+    color: #222;
+    line-height: 1.7;
+}
+
+/* HEADER */
+header {
+    background: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px 0;   /* controlled spacing */
+    border-bottom: 2px solid #000;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(27, 117, 153);
+    line-height: 1.1; 
+}
+
+header p {
+    color: #ffffff;
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 20px;
+}
+
+/* ARTICLE ROW */
+.article {
+    display: flex;
+    gap: 25px;
+    background: white;
+    margin-bottom: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* IMAGE */
+.article img {
+    width: 260px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* TEXT */
+.article-content {
+    flex: 1;
+}
+
+.meta {
+    color: #777;
+    font-size: 14px;
+}
+
+/* READ MORE */
+summary {
+    cursor: pointer;
+    color: #0a58ca;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: white;
+    border-top: 1px solid #e6e6e6;
+}
+
+ marquee {
+            background-color: rgb(56, 53, 53);
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            
+        }
+
